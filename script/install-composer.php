@@ -16,5 +16,5 @@ if (hash_file('SHA384', 'composer-setup.php') === SHA_KEY) {
 echo PHP_EOL;
 
 # Run the official installer
-passthru("php composer-setup.php");
+passthru("php composer-setup.php --install-dir=/usr/local/bin --filename=composer");
 unlink('composer-setup.php');
