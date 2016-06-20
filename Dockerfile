@@ -9,4 +9,5 @@ COPY script/install-composer.php install-composer.php
 RUN php install-composer.php
 
 # Install Heroku CLI tool
-RUN wget -O- https://toolbelt.heroku.com/install.sh | sh
+RUN wget https://toolbelt.heroku.com/install.sh && \
+  install.sh
