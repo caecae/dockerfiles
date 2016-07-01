@@ -1,0 +1,5 @@
+FROM ubuntu:14.04
+
+ENV LANG C.UTF-8
+FROM ruby:2.2.5
+
