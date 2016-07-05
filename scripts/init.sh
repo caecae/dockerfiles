@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
-if [ -e "/tmp/jekyll/_config.yml" ] 
-then 
-  echo 'hi'
+
+# Default location is /tmp/jekyll/
+# Checking for _config.yml
+if [ -e "_config.yml" ] 
+then
+  jekyll server -H 0.0.0.0
+else
+  echo 'Error: Possible wrong execution location ... missing _config.yml.'
 fi
