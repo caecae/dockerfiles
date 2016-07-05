@@ -1,5 +1,6 @@
-FROM ubuntu:14.04
+FROM ruby:2.2.5
 
 ENV LANG C.UTF-8
-FROM ruby:2.2.5
+
+RUN gem install jekyll
 
