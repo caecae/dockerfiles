@@ -7,6 +7,8 @@ Quick environment provisioned for Jekyll development
 
 * -p <host-ip>:4000
 * -v <development-dir>:/tmp/jekyll
+* -d ... if want to use the default init.sh and as daemon
+* -it --rm ... if want to get terminal access
 
 ### Notes
 
