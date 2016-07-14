@@ -10,6 +10,9 @@ Quick environment provisioned for Jekyll development
 * -d ... if want to use the default init.sh and as daemon
 * -it --rm ... if want to get terminal access
 
+Sample:
+docker run -it --rm -p 80:4000 -v '$PWD':/tmp/jekyll <jekyll> bash
+
 ### Notes
 
 * when running the test `jekyll serve`, remember to add -H to allow for request from non-localhost IP
