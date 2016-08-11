@@ -11,6 +11,8 @@ Mix of all possible tools :)
 ### Configuration
 
 * Node 6.2.2
+* PhantomJS 2.1.1 x64
+* PHP 5.x
 
 ### References
 
