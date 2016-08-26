@@ -5,7 +5,8 @@ ENV V_PHANTOMJS_NAME phantomjs-${V_PHANTOMJS}-linux-x86_64
 
 RUN apt-get update && apt-get install -y \
   curl \
-  php5
+  php5 \ 
+  python
 
 WORKDIR /tmp
 
